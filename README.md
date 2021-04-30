@@ -5,8 +5,8 @@
 ## Project Plan
 <TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* [Trello Board](https://trello.com/b/7E52uJeg/udacity-building-a-ci-cd-pipeline)
+* [Project Plan](projectplan.xlsx) <TODO: A link to a spreadsheet that includes the original and final project plan>
 
 ## Instructions
 
