@@ -4,8 +4,8 @@
 
 In this project, we
 * clone a GitHub repo to Azure Cloud Shell,
-* setup pylint and pytest to run in a GitHub action,
 * deploy the webapp using Azure CLI,
+* setup pylint and pytest to run in a GitHub action,
 * setup a CI/CD pipeline in Azure DevOps,
 * run a load test with Locust.
 
