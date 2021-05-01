@@ -25,4 +25,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://toast-udacity-devops.azurewebsites.net:$PORT/predict 
+     -X POST https://toast-udacity-devops-demo.azurewebsites.net:$PORT/predict 
