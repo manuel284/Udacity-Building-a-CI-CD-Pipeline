@@ -12,7 +12,7 @@ variables:
 
   # Web app name
   webAppName: 'toast-udacity-devops'
-
+  foo: 'bar'
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
