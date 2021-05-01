@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: '530d33cf-f4ac-4748-868d-af214ff31cfd'
+  azureServiceConnectionId: '9f2b5c16-a24b-40d6-8477-03e695aa376c'
 
   # Web app name
   webAppName: 'toast-udacity-devops'
