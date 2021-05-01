@@ -12,7 +12,6 @@ In this project, we
 ![architecture](screenshots/ArchitectureDiagram.png)
 
 ## Project Plan
-<TODO: Project Plan
 
 * [Trello Board](https://trello.com/b/7E52uJeg/udacity-building-a-ci-cd-pipeline)
 
