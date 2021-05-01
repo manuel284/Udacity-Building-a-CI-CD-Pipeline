@@ -8,16 +8,16 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: '9f2b5c16-a24b-40d6-8477-03e695aa376c'
+  azureServiceConnectionId: 'd960b598-5b7c-45ee-82c7-651047323bc4'
 
   # Web app name
-  webAppName: 'toast-udacity-devops'
+  webAppName: 'toast-udacity-devops-demo'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'toast-udacity-devops'
+  environmentName: 'toast-udacity-devops-demo'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
@@ -80,7 +80,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : toast-udacity-devops'
+            displayName: 'Deploy Azure Web App : toast-udacity-devops-demo'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
