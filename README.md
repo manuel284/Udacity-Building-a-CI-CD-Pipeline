@@ -4,8 +4,8 @@
 
 In this project, we
 * clone a GitHub repo to Azure Cloud Shell,
-* deploy the webapp using Azure CLI,
 * setup pylint and pytest to run in a GitHub action,
+* deploy the webapp using Azure CLI,
 * setup a CI/CD pipeline in Azure DevOps,
 * run a load test with Locust.
 
@@ -127,6 +127,6 @@ pytest and pylint are not used for the web app. These steps should be added to t
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+[Udacity-DevOps-Demo](https://youtu.be/XPmlWxE-ue8)
 
 
