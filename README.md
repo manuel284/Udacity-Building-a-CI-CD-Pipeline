@@ -19,18 +19,18 @@ In this project, we
 
 ## Instructions
 
-### Clone the repository from github
+### Clone the repository from GitHub
 * using https: `git clone https://github.com/manuel284/Udacity-Building-a-CI-CD-Pipeline.git`
 * using ssh
-    1. create an ssh key: `ssh-keygen -t rsa`
-    ![ssh-keygen](screenshots/11-ssh-keygen.png)
-    2. copy the value of the key: `cat /home/manuel/.ssh/id_rsa.pub`
-    ![ssh-public](screenshots/12-ssh-public.png)
-    3. add the key to your github account: https://github.com/settings/keys ![new ssh key](screenshots/10-ssh-new.png)
-    ![ssh save](screenshots/13-ssh-save.png)
-    ![ssh saved](screenshots/14-ssh-saved.png)
-    4. git clone: `git clone git@github.com:manuel284/Udacity-Building-a-CI-CD-Pipeline.git`
-    ![git clone](screenshots/15-git-clone.png)
+  1. create an ssh key: `ssh-keygen -t rsa`
+  ![ssh-keygen](screenshots/11-ssh-keygen.png)
+  2. copy the value of the key: `cat /home/manuel/.ssh/id_rsa.pub`
+  ![ssh-public](screenshots/12-ssh-public.png)
+  3. add the key to your GitHub account: https://github.com/settings/keys ![new ssh key](screenshots/10-ssh-new.png)
+  ![ssh save](screenshots/13-ssh-save.png)
+  ![ssh saved](screenshots/14-ssh-saved.png)
+  4. git clone: `git clone git@github.com:manuel284/Udacity-Building-a-CI-CD-Pipeline.git`
+  ![git clone](screenshots/15-git-clone.png)
 
 ### Run app locally
 1. change directory: `cd Udacity-Building-a-CI-CD-Pipeline/`
@@ -57,11 +57,11 @@ In this project, we
 3. check the output of your web app's logstream
 ![log-stream](screenshots/6-log-stream.png)
 
-### Setup Continuous Integration in github
-1. Go to the repo in github - Actions - New workflow - set up a workflow yourself.
+### Setup Continuous Integration in GitHub
+1. Go to the repo in GitHub - Actions - New workflow - set up a workflow yourself.
 2. Paste the following code and click `start commit`:
 ```
-name: Python application test with Github Actions
+name: Python application test with GitHub Actions
 
 on: [push]
 
