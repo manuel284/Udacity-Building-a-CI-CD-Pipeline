@@ -45,8 +45,9 @@ In this project, we
 
 ### Deploy app to Azure App Service
 1. create a new resource group: `az group create -n rg-udacity-devops -l "west europe"`
-2. deploy the web app: `az webapp up -g rg-udacity-devops -l "west europe" --sku F1 -n toast-udacity-devops`
-
+2. deploy the web app: `az webapp up -g rg-udacity-devops -l "west europe" --sku F1 -n toast-udacity-devops`<br/>
+![app service rg](screenshots/28-app-service-rg.png)<br/>
+![app service](screenshots/29-app-service.png)
 ### Test the deployed app
 1. Update make_predict_azure_app.sh to call the correct URL
 ![update url](screenshots/17-url.png)
